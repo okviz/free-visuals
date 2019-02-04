@@ -1,6 +1,6 @@
-# Power BI free custom visuals
+# Power BI Free Custom Visuals from OKViz
 
-OKViz developed and maintains several custom visuals for Power BI:
+OKViz developed and maintains several free custom visuals for Power BI:
 - [Smart Filter](https://okviz.com/smart-filter/)
 - [Card with States](https://okviz.com/card-with-states/)
 - [Bullet Chart](https://okviz.com/bullet-chart/)
