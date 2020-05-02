@@ -22,9 +22,9 @@ A clear and concise description of what you expected to happen.
  - Power BI iOS app
  - Power BI Android app
 
-**Repro file**
-Include a sample report (PBIX file) that reproduces the issue. If you can't publicly share it, send it to support@okviz.com, including a reference to this issue. If you can't share it, please recreate the issue in a sample report with dummy data.
-***IMPORTANT: we are not able to fix issues without a sample report!***
+**REQUIRED: Repro file**
+Include a sample report (PBIX file) that reproduces the issue. If you can't publicly share it, send it to support@okviz.com, including a reference to this issue. If the report contains private data, please recreate the issue in a sample report with dummy data.
+***IMPORTANT: We don't consider issues without a sample report!***
 
 **Screenshots**
 If applicable, add screenshots or screencast to help explain your problem.
