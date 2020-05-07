@@ -10,11 +10,8 @@ assignees: ''
 **Describe the issue**
 A clear and concise description of what the bug is.
 
-**To Reproduce**
+**To reproduce**
 Steps to reproduce the behavior.
-
-**Expected behavior**
-A clear and concise description of what you expected to happen.
 
 **Affected environment**
  - Power BI Desktop (include the version: E.g.: April 2020)
