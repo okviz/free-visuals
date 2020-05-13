@@ -20,4 +20,4 @@ To submit an issue, please follow these directions:
 
 3. **IMPORTANT**: Include a sample report (PBIX file) that reproduces the issue. If your report contains private data or you cannot publicy share it for any reason, please send it to [support@okviz.com](mailto:support@okviz.com?subject=Issue%20#) with a reference to the issue on this repository. **We don't consider issues without a sample file!**
 
-[Create a new issue](../../issues/new)
+[Create a new issue](../../issues/new?assignees=&labels=&template=bug-report.md&title=Visual+Name+-+Issue+description)
