@@ -1,6 +1,6 @@
 name: 💡 Feature Request
 description: Suggest an idea for this project..
-title: "Visual - "
+title: " "
 labels: enhancement
 body:
 - type: markdown
@@ -9,7 +9,8 @@ body:
 - type: dropdown
   id: visualName
   attributes:
-    label: Select the visual you are suggesting an enhancement.
+    label: Visual
+    description: Select the visual you are suggesting an enhancement.
     options:
       - Dot Plot
       - Candlestick
@@ -28,7 +29,7 @@ body:
 - type: textarea
   attributes:
     label: Proposed solution
-    description: Share how this will benefit the visual for Power BI and its users.
+    description: Share how this will benefit this visual for Power BI and its users.
   validations:
     required: true
 - type: textarea

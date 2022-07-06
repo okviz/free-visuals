@@ -1,12 +1,13 @@
 name: 🐛 Bug Report
 description: Let us know if something is expected to work, but doesn't.
-title: "Visual name - "
-labels: bug
+title: ""
+labels: ["bug", "untriaged"]
 body:
 - type: dropdown
   id: visualName
   attributes:
-    label: Select the visual you experienced the issue.
+    label: Visual
+    description: Select the visual you experienced the issue.
     options:
       - Dot Plot
       - Candlestick
@@ -26,15 +27,27 @@ body:
 - type: textarea
   attributes:
     label: Current Behavior
-    description: Describe the issue you are experiencing with visual. Provide a clear and concise description of what you were trying to do and what happened, along with any error messages you encountered.
+    description: Describe the issue you are experiencing with this visual. Provide a clear and concise description of what you were trying to do and what happened, along with any error messages you encountered.
+  validations:
+    required: true
+- type: dropdown
+  attributes:
+    label: Power BI
+    description: Check where the issue raised.
+    options:
+    - Power BI Desktop
+    - Power BI service
+    - Power BI iOS app
+    - Power BI Android app
+    multiple: true
   validations:
     required: true
 - type: input
   attributes: 
-    label: Power BI
-    description: Enter the specific Power BI version used e.g. Power BI Desktop (include the version - e.g. April 2020), Power BI service, Power BI iOS app, Power BI Android app...
+    label: Power BI Version
+    description: Enter the specific Power BI version used.
   validations:
-    required: true
+    required: false
 - type: textarea
   attributes:
     label: Steps To Reproduce
@@ -42,14 +55,14 @@ body:
     placeholder: |
       1. In this environment...
       2. With this config...
-      3. With this options...
+      3. With these options...
       4. See error...
   validations:
     required: false
 - type: textarea
   attributes:
     label: Sample report
-    description: Include a sample report (.PBIX zipped as .ZIP file) that reproduces the issue. If the report contains private data, please recreate the issue in a sample report with dummy data.
+    description: Include a sample report (.PBIX zipped as .ZIP file) that reproduces the issue. If the report contains private data, please recreate the issue in a sample report with dummy data or send it us at support@okviz.com.
   validations:
     required: true
 - type: textarea
@@ -62,7 +75,7 @@ body:
   attributes:
     label: Anything else?
     description: |
-      Links? References? Screenshot? Anything that will give us more context about the issue you are encountering!
+      Links? References? Anything that will give us more context about the issue you are encountering!
 
       Tip: You can attach images or log files by clicking this area to highlight it and then dragging files in.
   validations:
