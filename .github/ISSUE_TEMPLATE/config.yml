@@ -1,1 +1,5 @@
-blank_issues_enabled: false
+blank_issue_enabled: false
+contact_links:
+  - name: OKVIZ Support Page
+    url: https://okviz.com/support/
+    about: OKVIZ - The good visuals for Power BI

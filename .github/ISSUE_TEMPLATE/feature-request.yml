@@ -1,0 +1,39 @@
+name: 💡 Feature Request
+description: Suggest an idea for this project..
+title: "Visual - "
+labels: enhancement
+body:
+- type: markdown
+  attributes:
+    value: Thanks for submitting a feature request!
+- type: dropdown
+  id: visualName
+  attributes:
+    label: Select the visual you experienced the issue.
+    options:
+      - Dot Plot
+      - Candlestick
+      - Card with States
+      - Smart Filter (FREE)
+      - Sparkline
+      - Synoptic Panel
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: The feature request
+    description: Write a clear and concise description of what the feature or problem is.
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Proposed solution
+    description: Share how this will benefit the visual for Power BI and its users.
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Additional context
+    description: Please include any other context, like screenshots or mockups, if applicable.
+  validations:
+    required: false
