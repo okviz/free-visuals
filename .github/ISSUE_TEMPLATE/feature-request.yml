@@ -9,7 +9,7 @@ body:
 - type: dropdown
   id: visualName
   attributes:
-    label: Select the visual you experienced the issue.
+    label: Select the visual you are suggesting an enhancement.
     options:
       - Dot Plot
       - Candlestick
