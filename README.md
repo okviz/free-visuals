@@ -1,15 +1,15 @@
 # Issues with Power BI Custom Visuals by OKVIZ
 
-For issues with the following visuals, use the [Issues page](../../issues) on this repository:
+For issues with the free visuals, use the [Issues page](../../issues) on this repository:
 - Dot Plot
 - Candlestick
 - Card with States
-- Smart Filter (FREE)
+- Smart Filter (free)
 - Sparkline
 - Synoptic Panel
 
 
-For the following visuals, use their dedicated repository:
+For issues with pro visuals, use a dedicated repository:
 - **Bullet Chart:** https://github.com/okviz/bullet-chart-issues
 - **Calendar Pro:** https://github.com/okviz/calendar-pro-issues
 - **Smart Filter Pro** https://github.com/okviz/smart-filter-pro-issues
