@@ -1,6 +1,6 @@
 # Issues with Power BI Custom Visuals by OKVIZ
 
-For issues with the free visuals, use the [Issues page](../../issues) on this repository:
+For issues with free visuals, use the [Issues page](../../issues) on this repository:
 - Dot Plot
 - Candlestick
 - Card with States
