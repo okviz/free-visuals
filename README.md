@@ -5,7 +5,7 @@ This repo is intended to collect issues with free visuals such as:
 - Dot Plot
 - Candlestick
 - Card with States
-- Smart Filter (free)
+- Smart Filter (FREE)
 - Sparkline
 
 For premium visuals, please use a dedicated repo:
