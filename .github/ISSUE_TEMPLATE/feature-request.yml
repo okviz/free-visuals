@@ -16,7 +16,6 @@ body:
       - Card with States
       - Smart Filter (FREE)
       - Sparkline
-      - Synoptic Panel
   validations:
     required: true
 - type: textarea
