@@ -2,7 +2,6 @@
 
 This repo is intended to collect issues with free visuals such as:
 
-- Dot Plot
 - Candlestick
 - Card with States
 - Smart Filter (FREE)
